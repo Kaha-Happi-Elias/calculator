@@ -20,6 +20,11 @@ function calculatePower() {
     let result = Math.pow(parseFloat(values[0]), parseFloat(/*values[1] ? values[1] : */2 ));
     document.getElementById('display').value = result;
 }
+function calculateSquareRoot(){
+    let value = document.getElementById('display').value;
+    let result = Math.sqrt(value);
+    document.getElementById('display').value = result;
+}
 /*let message = "Hello world"
 let nombre =42
 message = "Tutoriel Javascript"
