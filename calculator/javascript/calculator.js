@@ -11,7 +11,7 @@ function clearDisplay(){
 function clearOnce(){
     let deleteValue = document.getElementById('display');
     let clear = deleteValue.value;
-    if(clear > 0 || clear < 0){
+    if(clear > 0){
         deleteValue.value = clear.slice(0, -1);
     }
 }
